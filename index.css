@@ -1,0 +1,193 @@
+body {
+  background-color: #FFF;
+  margin: 0 auto;
+  height: 100%
+}
+
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+header {
+  width: 100%;
+  font-size: small;
+  color: #666;
+}
+
+header ul {
+  text-align: right;
+  padding: 0 30px;
+  margin: 16px 0;
+}
+
+.icone {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  background-position: -132px -38px;
+  opacity: .55;
+  background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);    
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px; 
+}
+
+.btn-blue {
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: #4285f4;
+  background: linear-gradient(top,#4387fd,#4683ea);
+  color: #fff;
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  border-radius: 2px
+  cursor: default;
+  text-decoration: none; 
+}
+
+header li {
+  font-weight: 300;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+header a {
+  color: #666;
+  text-decoration: none; 
+  font-weight: 400;
+}
+
+.content {
+  box-sizing: border-box;
+  text-align: center;
+  display: block;
+  width: 100%;
+  min-width: 980px;
+}
+
+.cnt-logo {
+  height:233px;
+  margin-top: 42px;
+}
+
+.logo {
+  padding-top:109px;
+}
+
+.search {
+  margin: 0 auto;
+  background-color: #fff;
+  height: 44px;
+  vertical-align: top;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  max-width: 584px;
+}
+
+.search input{
+  box-sizing: border-box;
+  height: 34px;
+  overflow: hidden;
+  height: 100%;
+  overflow: hidden;
+  padding: 5px 9px 0;
+  border: medium none;
+  width: 503px;
+  left: 0px;
+  outline: medium none currentcolor;
+}
+
+.keyboard {
+  background: url(data:image/gif;base64,keyboad.gif) no-repeat center;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  opacity: .55;
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px; 
+}
+
+.btns {
+  padding-top: 18px;
+}
+ 
+.btn-gray { 
+  height: 36px;
+  line-height: 27px;
+  background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+}
+
+.btn-gray:hover {
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+footer {
+  background-color: #DBE9EE;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  min-width: 980px;
+  width: 100%;
+  font-size: small;
+  color: #666;
+  display: block;
+  vertical-align: middle;  
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  padding-left: 27px;
+}
+
+footer p {
+  margin: 0;
+  padding-left: 27px;
+  font-size: 15px;
+}
+
+.footer-cnt {
+  line-height: 40px;
+  padding-right: 27px; 
+}
+
+.footer-cnt-country {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.right{
+  float: right
+}
